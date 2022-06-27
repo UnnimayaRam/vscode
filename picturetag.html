@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Show Different images depending on browser width</h2>
+    <p>Resize the browser width and the image will change at 600px and 1500px</p>
+    <picture>
+        <source media="(min-width:1300px)" srcset="https://wallpaperaccess.com/full/55565.jpg" >
+        
+        <source media="(min-width:1100px)" srcset="https://wallpaperaccess.com/full/323408.jpg" >
+        <source media="(min-width:900px)" srcset="https://www.teahub.io/photos/full/29-299433_thor-ultra-hd-thor-hd.jpg" >
+        <source media="(min-width:700px)" srcset="https://www.teahub.io/photos/full/19-199512_marvel-studios-gets-a-crack-at-spider-man.jpg" >
+        
+        <source media="(min-width:500px)" srcset="https://p4.wallpaperbetter.com/wallpaper/994/128/973/avengers-hulk-4k-wallpaper-preview.jpg" >
+
+
+        <img src="https://images.wallpapersden.com/image/download/avengers-endgame-2019-movie_a2loaGWUmZqaraWkpJRmZWdprWtlZQ.jpg" width="1500" height="1400"></img>
+    </picture>
+</body>
+</html>
